@@ -51,6 +51,20 @@ let s:purple    = g:poimandres#palette.purple
 let s:red       = g:poimandres#palette.red
 let s:yellow    = g:poimandres#palette.yellow
 
+let s:brightYellow = g:poimandres#palette.brightYellow
+let s:brightMint = g:poimandres#palette.brightMint
+let s:lowerMint = g:poimandres#palette.lowerMint
+let s:blueishGreen = g:poimandres#palette.blueishGreen
+let s:lowerBlue = g:poimandres#palette.lowerBlue
+let s:lightBlue = g:poimandres#palette.lightBlue
+let s:desaturatedBlue = g:poimandres#palette.desaturatedBlue
+let s:bluishGrayBrighter = g:poimandres#palette.bluishGrayBrighter
+let s:hotRed = g:poimandres#palette.hotRed
+let s:brighterPink = g:poimandres#palette.brighterPink
+let s:gray = g:poimandres#palette.gray
+let s:darkerGray = g:poimandres#palette.darkerGray
+let s:bluishGray = g:poimandres#palette.bluishGray
+
 let s:none      = ['NONE', 'NONE']
 
 if has('nvim')
@@ -170,15 +184,15 @@ call s:h('PoimandresPurple', s:purple)
 call s:h('PoimandresPurpleBold', s:purple, s:none, [s:attrs.bold])
 call s:h('PoimandresPurpleItalic', s:purple, s:none, [s:attrs.italic])
 
-call s:h('PoimandresRed', s:red)
-call s:h('PoimandresRedInverse', s:fg, s:red)
+call s:h('PoimandresRed', s:hotRed)
+call s:h('PoimandresRedInverse', s:fg, s:hotRed)
 
-call s:h('PoimandresYellow', s:yellow)
-call s:h('PoimandresYellowItalic', s:yellow, s:none, [s:attrs.italic])
+call s:h('PoimandresYellow', s:brightYellow)
+call s:h('PoimandresYellowItalic', s:brightYellow, s:none, [s:attrs.italic])
 
-call s:h('PoimandresError', s:red, s:none, [], s:red)
+call s:h('PoimandresError', s:hotRed, s:none, [], s:hotRed)
 
-call s:h('PoimandresErrorLine', s:none, s:none, [s:attrs.undercurl], s:red)
+call s:h('PoimandresErrorLine', s:none, s:none, [s:attrs.undercurl], s:hotRed)
 call s:h('PoimandresWarnLine', s:none, s:none, [s:attrs.undercurl], s:orange)
 call s:h('PoimandresInfoLine', s:none, s:none, [s:attrs.undercurl], s:cyan)
 
@@ -189,7 +203,7 @@ call s:h('PoimandresLink', s:cyan, s:none, [s:attrs.underline])
 
 call s:h('PoimandresDiffChange', s:orange, s:none)
 call s:h('PoimandresDiffText', s:bg, s:orange)
-call s:h('PoimandresDiffDelete', s:red, s:bgdark)
+call s:h('PoimandresDiffDelete', s:hotRed, s:bgdark)
 
 " }}}2
 

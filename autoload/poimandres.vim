@@ -9,9 +9,24 @@ let g:poimandres#palette.bg        = ['#1b1e28', 236]
 let g:poimandres#palette.bgdark    = ['#282A36', 235]
 let g:poimandres#palette.bgdarker  = ['#21222C', 234]
 
-let g:poimandres#palette.comment   = ['#a6accd',  61]
+let g:poimandres#palette.comment   = ['#767c9d',  61]
 let g:poimandres#palette.selection = ['#717cb425', 239]
 let g:poimandres#palette.subtle    = ['#e4f0fb', 238]
+
+let g:poimandres#palette.brightYellow = '#fffac2'
+let g:poimandres#palette.brightMint = '#5de4c7'
+let g:poimandres#palette.lowerMint = '#5fb3a1'
+let g:poimandres#palette.blueishGreen = '#42675a'
+let g:poimandres#palette.lowerBlue = '#89ddff'
+let g:poimandres#palette.lightBlue = '#add7ff'
+let g:poimandres#palette.desaturatedBlue = '#91b4d5'
+let g:poimandres#palette.hotRed = '#d0679d'
+let g:poimandres#palette.pink = '#fcc5e9'
+let g:poimandres#palette.brightPink = '#fae4fc'
+let g:poimandres#palette.gray = '#a6accd'
+let g:poimandres#palette.darkerGray = '#767c9d'
+let g:poimandres#palette.bluishGray = '#506477'
+let g:poimandres#palette.offWhite = '#e4f0fb'
 
 let g:poimandres#palette.cyan      = ['#5de4c7', 117]
 let g:poimandres#palette.green     = ['#42675a',  84]
