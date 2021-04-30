@@ -1,9 +1,9 @@
-if dracula#should_abort('html')
+if poimandres#should_abort('html')
     finish
 endif
 
-hi! link htmlTag         DraculaFg
-hi! link htmlArg         DraculaGreenItalic
-hi! link htmlTitle       DraculaFg
-hi! link htmlH1          DraculaFg
-hi! link htmlSpecialChar DraculaPurple
+hi! link htmlTag         PoimandresFg
+hi! link htmlArg         PoimandresGreenItalic
+hi! link htmlTitle       PoimandresFg
+hi! link htmlH1          PoimandresFg
+hi! link htmlSpecialChar PoimandresPurple

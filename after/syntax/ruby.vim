@@ -1,4 +1,4 @@
-if dracula#should_abort('ruby')
+if poimandres#should_abort('ruby')
     finish
 endif
 
@@ -6,11 +6,11 @@ if ! exists('g:ruby_operators')
     let g:ruby_operators=1
 endif
 
-hi! link rubyBlockArgument          DraculaOrangeItalic
-hi! link rubyBlockParameter         DraculaOrangeItalic
-hi! link rubyCurlyBlock             DraculaPink
-hi! link rubyGlobalVariable         DraculaPurple
-hi! link rubyInstanceVariable       DraculaPurpleItalic
-hi! link rubyInterpolationDelimiter DraculaPink
-hi! link rubyRegexpDelimiter        DraculaRed
-hi! link rubyStringDelimiter        DraculaYellow
+hi! link rubyBlockArgument          PoimandresOrangeItalic
+hi! link rubyBlockParameter         PoimandresOrangeItalic
+hi! link rubyCurlyBlock             PoimandresPink
+hi! link rubyGlobalVariable         PoimandresPurple
+hi! link rubyInstanceVariable       PoimandresPurpleItalic
+hi! link rubyInterpolationDelimiter PoimandresPink
+hi! link rubyRegexpDelimiter        PoimandresRed
+hi! link rubyStringDelimiter        PoimandresYellow

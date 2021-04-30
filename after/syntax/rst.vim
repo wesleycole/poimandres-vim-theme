@@ -1,17 +1,17 @@
-if dracula#should_abort('rst')
+if poimandres#should_abort('rst')
     finish
 endif
 
 hi! link rstComment                             Comment
 hi! link rstTransition                          Comment
-hi! link rstCodeBlock                           DraculaGreen
-hi! link rstInlineLiteral                       DraculaGreen
-hi! link rstLiteralBlock                        DraculaGreen
-hi! link rstQuotedLiteralBlock                  DraculaGreen
-hi! link rstStandaloneHyperlink                 DraculaLink
-hi! link rstStrongEmphasis                      DraculaOrangeBold
-hi! link rstSections                            DraculaPurpleBold
-hi! link rstEmphasis                            DraculaYellowItalic
+hi! link rstCodeBlock                           PoimandresGreen
+hi! link rstInlineLiteral                       PoimandresGreen
+hi! link rstLiteralBlock                        PoimandresGreen
+hi! link rstQuotedLiteralBlock                  PoimandresGreen
+hi! link rstStandaloneHyperlink                 PoimandresLink
+hi! link rstStrongEmphasis                      PoimandresOrangeBold
+hi! link rstSections                            PoimandresPurpleBold
+hi! link rstEmphasis                            PoimandresYellowItalic
 hi! link rstDirective                           Keyword
 hi! link rstSubstitutionDefinition              Keyword
 hi! link rstCitation                            String

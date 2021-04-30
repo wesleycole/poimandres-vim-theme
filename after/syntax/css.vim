@@ -1,15 +1,15 @@
-if dracula#should_abort('css')
+if poimandres#should_abort('css')
     finish
 endif
 
 hi! link cssAttrComma         Delimiter
-hi! link cssAttrRegion        DraculaPink
-hi! link cssAttributeSelector DraculaGreenItalic
+hi! link cssAttrRegion        PoimandresPink
+hi! link cssAttributeSelector PoimandresGreenItalic
 hi! link cssBraces            Delimiter
 hi! link cssFunctionComma     Delimiter
-hi! link cssNoise             DraculaPink
-hi! link cssProp              DraculaCyan
-hi! link cssPseudoClass       DraculaPink
-hi! link cssPseudoClassId     DraculaGreenItalic
-hi! link cssUnitDecorators    DraculaPink
-hi! link cssVendor            DraculaGreenItalic
+hi! link cssNoise             PoimandresPink
+hi! link cssProp              PoimandresCyan
+hi! link cssPseudoClass       PoimandresPink
+hi! link cssPseudoClassId     PoimandresGreenItalic
+hi! link cssUnitDecorators    PoimandresPink
+hi! link cssVendor            PoimandresGreenItalic

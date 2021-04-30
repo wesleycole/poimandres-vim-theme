@@ -1,6 +1,6 @@
-if dracula#should_abort('json')
+if poimandres#should_abort('json')
     finish
 endif
 
-hi! link jsonKeyword      DraculaCyan
-hi! link jsonKeywordMatch DraculaPink
+hi! link jsonKeyword      PoimandresCyan
+hi! link jsonKeywordMatch PoimandresPink

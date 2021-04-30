@@ -1,5 +1,5 @@
 " =============================================================================
-" Filename: autoload/lightline/colorscheme/dracula.vim
+" Filename: autoload/lightline/colorscheme/poimandres.vim
 " Author: adamalbrecht
 " License: MIT License
 " Last Change: 2018/04/11

@@ -1,12 +1,12 @@
-if dracula#should_abort('yaml')
+if poimandres#should_abort('yaml')
     finish
 endif
 
-hi! link yamlAlias           DraculaGreenItalicUnderline
-hi! link yamlAnchor          DraculaPinkItalic
-hi! link yamlBlockMappingKey DraculaCyan
-hi! link yamlFlowCollection  DraculaPink
+hi! link yamlAlias           PoimandresGreenItalicUnderline
+hi! link yamlAnchor          PoimandresPinkItalic
+hi! link yamlBlockMappingKey PoimandresCyan
+hi! link yamlFlowCollection  PoimandresPink
 hi! link yamlFlowIndicator   Delimiter
-hi! link yamlNodeTag         DraculaPink
-hi! link yamlPlainScalar     DraculaYellow
+hi! link yamlNodeTag         PoimandresPink
+hi! link yamlPlainScalar     PoimandresYellow
 

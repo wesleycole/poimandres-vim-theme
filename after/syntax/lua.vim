@@ -1,21 +1,21 @@
-if dracula#should_abort('lua')
+if poimandres#should_abort('lua')
     finish
 endif
 
-hi! link luaFunc  DraculaCyan
-hi! link luaTable DraculaFg
+hi! link luaFunc  PoimandresCyan
+hi! link luaTable PoimandresFg
 
 " tbastos/vim-lua {{{
 
-hi! link luaBraces       DraculaFg
+hi! link luaBraces       PoimandresFg
 hi! link luaBuiltIn      Constant
 hi! link luaDocTag       Keyword
-hi! link luaErrHand      DraculaCyan
-hi! link luaFuncArgName  DraculaOrangeItalic
+hi! link luaErrHand      PoimandresCyan
+hi! link luaFuncArgName  PoimandresOrangeItalic
 hi! link luaFuncCall     Function
 hi! link luaLocal        Keyword
 hi! link luaSpecialTable Constant
-hi! link luaSpecialValue DraculaCyan
+hi! link luaSpecialValue PoimandresCyan
 
 " }}}
 
