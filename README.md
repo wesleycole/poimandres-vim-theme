@@ -1,6 +1,6 @@
-# Dracula for [Vim](http://www.vim.org/)
+ Poimandres for [Vim](http://www.vim.org/)
 
-> A dark theme for [Vim](http://www.vim.org/).
+ A dark theme for [Vim](http://www.vim.org/).
 
 ![Screenshot](./screenshot.png)
 

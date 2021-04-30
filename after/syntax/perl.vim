@@ -1,4 +1,4 @@
-if dracula#should_abort('perl')
+if poimandres#should_abort('perl')
     finish
 endif
 

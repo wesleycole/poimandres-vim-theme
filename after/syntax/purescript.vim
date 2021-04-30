@@ -1,4 +1,4 @@
-if dracula#should_abort('purescript')
+if poimandres#should_abort('purescript')
     finish
 endif
 

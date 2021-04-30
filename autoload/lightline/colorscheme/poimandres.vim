@@ -5,16 +5,16 @@
 " Last Change: 2018/04/11
 " =============================================================================
 
-let s:black    = g:dracula#palette.bg
-let s:gray     = g:dracula#palette.selection
-let s:white    = g:dracula#palette.fg
-let s:darkblue = g:dracula#palette.comment
-let s:cyan     = g:dracula#palette.cyan
-let s:green    = g:dracula#palette.green
-let s:orange   = g:dracula#palette.orange
-let s:purple   = g:dracula#palette.purple
-let s:red      = g:dracula#palette.red
-let s:yellow   = g:dracula#palette.yellow
+let s:black    = g:poimandres#palette.bg
+let s:gray     = g:poimandres#palette.selection
+let s:white    = g:poimandres#palette.fg
+let s:darkblue = g:poimandres#palette.comment
+let s:cyan     = g:poimandres#palette.cyan
+let s:green    = g:poimandres#palette.green
+let s:orange   = g:poimandres#palette.orange
+let s:purple   = g:poimandres#palette.purple
+let s:red      = g:poimandres#palette.red
+let s:yellow   = g:poimandres#palette.yellow
 
 if exists('g:lightline')
 
@@ -35,7 +35,7 @@ if exists('g:lightline')
   let s:p.normal.error = [ [ s:red, s:black ] ]
   let s:p.normal.warning = [ [ s:yellow, s:black ] ]
 
-  let g:lightline#colorscheme#dracula#palette = lightline#colorscheme#flatten(s:p)
+  let g:lightline#colorscheme#poimandres#palette = lightline#colorscheme#flatten(s:p)
 
 endif
 
